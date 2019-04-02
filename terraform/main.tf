@@ -26,7 +26,7 @@ resource "aws_instance" "VagasTerraform" {
   user_data       = "${file("./userdata/vagasterraform.sh")}"
 
   tags {
-    Name        = "Vagas_Terraform"
+    Name        = "VagasTeste_Terraform"
     OS          = "ubuntu"
   }
 }
